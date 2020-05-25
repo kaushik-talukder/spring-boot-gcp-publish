@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/sandbox?currentSchema=dev
+    username: sandbox
+    password: sandb0x
+  jpa:
+    show-sql: true
+  cloud:
+    gcp:
+      project-id: dotted-howl-273101
+      credentials:
+        location: file:/Users/kaushik/CodeX/private-keys/dotted-howl-273101-a9307081af41.json
